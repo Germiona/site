@@ -1,0 +1,86 @@
+/* authors */
+
+.authors {
+  margin-bottom: 108px;
+}
+
+.authors__title {
+  color: var(--Black, #232536);
+  font-family: Sen;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px; /* 133.333% */
+  letter-spacing: -2px;
+  text-align: center;
+}
+
+.authors__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.authors__card {
+  width: 296px;
+  height: 324px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.authors__card img {
+  width: 128px;
+  height: 128px;
+  margin-bottom: 20px;
+}
+
+.authors__name {
+  color: var(--Black, #232536);
+  font-family: Sen;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px; /* 142.857% */
+  letter-spacing: -1px;
+}
+
+.authors__company {
+  width: 240px;
+  color: var(--Medium-grey, #6D6E76);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.authors__social {
+  display: flex;
+  width: 112px;
+  height: 16px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,72 @@
+/* logo */
+
+.logo {
+  margin-bottom: 104px;
+}
+
+.logo__wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 75px;
+}
+
+.logo__wrapper span {
+  color: var(--Medium-grey, #6D6E76);
+  font-family: Sen;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  position: relative;
+}
+
+.logo__wrapper span::before {
+  content: 'We are';
+  width: 83.828px;
+  position: absolute;
+  top: -15px;
+  left: 0;
+  color: var(--Medium-grey, #6D6E76);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+
+.logo__wrapper svg {
+opacity: .7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

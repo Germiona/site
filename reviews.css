@@ -1,0 +1,163 @@
+/* testimonials */
+
+
+.reviews {
+  width: 1280px;
+  height: 464px;
+  background: var(--Light-yellow, #FBF6EA);
+  margin: auto;
+  padding: 92px 0 0 112px;
+  position: relative;
+  margin-bottom: 128px;
+}
+
+.reviews::before {
+  content: '';
+  position: absolute;
+  top: 80px;
+  left: 541px;
+  width: 1px;
+  height: 310px;
+  opacity: 0.4;
+  background: #6D6E76;
+}
+.reviews__row {
+  display: flex;
+  /* column-gap: 108px; */
+  
+  gap: 180px;
+}
+.reviews__col {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviews__title {  
+  color: var(--Black, #232536);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px; /* 125% */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.reviews__blog {
+  width: 345px;
+  color: var(--Black, #232536);
+  font-family: Sen;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px; /* 133.333% */
+  letter-spacing: -2px;
+  margin-bottom: 16px;
+  margin-bottom: 16px;
+}
+
+.reviews__blog + p {
+  width: 349px;
+  color: var(--Black, #232536);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+.review {
+  width: 469px;
+  color: var(--Black, #232536);
+  font-family: Sen;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  margin-bottom: 121px;
+}
+
+.client__card {
+display: flex;
+justify-content: space-between;
+}
+.customer__review {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.customer__review--wrap {
+  width: 207px;
+  /* margin-top: 6px; */
+}
+
+.client__name {
+  color: var(--Black, #232536);
+  font-family: Sen;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+}
+
+.client__address {
+  color: var(--Medium-grey, #6D6E76);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.reviews__btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding-left: 130px;
+}
+.btn__next {
+}
+.btn__prev {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

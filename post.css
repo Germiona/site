@@ -1,0 +1,154 @@
+
+/* posts */
+
+.posts {
+  display: flex;
+  width: 1280px;
+  margin: auto;
+
+  font-family: Sen;
+
+  margin-bottom: 153px;
+}
+
+.post a {
+  color: #592EA9;
+}
+
+.posts__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.posts__col {
+  display: flex;
+  flex-direction: column;
+}
+
+.post__title.Featured {
+  color: var(--Black, #232536);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px; /* 133.333% */
+  letter-spacing: -2px;
+  margin-bottom: 64px;
+}
+
+.post__img {
+  width: 669px;
+  height: 352px;
+  margin-bottom: 32px;
+}
+
+.post__date {
+  color: var(--Dark-Grey, #4C4C4C);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  margin-bottom: 16px;
+}
+
+.post__date span {
+  color: var(--Purple, #592EA9);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.post__subtitle {
+  width: 669px;
+
+  color: var(--Black, #232536);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px; /* 142.857% */
+  letter-spacing: -1px;
+
+  margin-bottom: 16px;
+}
+
+.post__text {
+  width: 551px;
+
+  color: #6D6E76;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  margin-bottom: 32px;
+}
+
+.post__btn {
+  width: 205px;
+  height: 56px;
+  padding: 16px 48px;
+  background: var(--Yellow, #FFD050);
+  transition: box-shadow .3s ease;
+
+  color: #232536;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px; /* 133.333% */
+}
+
+.post__btn:hover {
+  box-shadow: inset 0px 0px 11px 2px rgba(0,0,0,0.7)
+}
+
+.post__title.all {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.post__title h2 {
+  color: #232536;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px; /* 133.333% */
+  letter-spacing: -2px;
+}
+
+.post__title a {
+  color: var(--Purple, #592EA9);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 44px; /* 175% */
+}
+
+
+.post__card {
+  padding: 32px 0 0 32px;
+  width: 517px;
+  height: 181px;
+}
+.card__date {
+  color: var(--Dark-Grey, #4C4C4C);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+
+.card__date span {
+  color: var(--Purple, #592EA9);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.card__tex {
+  width: 369px;
+  color: var(--Black, #232536);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+}
+
+.post__card--active {
+  background-color: #FBF6EA;
+}
